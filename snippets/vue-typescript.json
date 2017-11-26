@@ -15,7 +15,7 @@
       "\t// lifecycle?",
       "\tcreated(){}",
       "\t//methods?",
-      "testFn(){}\n\n}",
+      "\t\testFn(){}\n\n}",
       "\n\n\n",
       "<style scoped>\n</style>"
     ]
