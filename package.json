@@ -1,8 +1,7 @@
 {
   "name": "vscode-vue-ts-snippet",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Vue with Typescript snippets",
-  "main": "index.js",
   "icon": "icon/icon.png",
   "publisher": "crperlin",
   "repository": {
@@ -34,14 +33,6 @@
       {
         "language": "vue",
         "path":"./snippets/vue.json"
-      },
-      {
-        "language": "typescript",
-        "path":"./snippets/vue-typescript.json"
-      },
-      {
-        "language": "javascript",
-        "path":"./snippets/vue-typescript.json"
       }
     ]
   },
