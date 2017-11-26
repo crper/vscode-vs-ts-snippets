@@ -1,0 +1,53 @@
+{
+  "name": "vscode-vue-ts-snippet",
+  "version": "0.0.1",
+  "description": "Vue with Typescript snippets",
+  "main": "index.js",
+  "icon": "icon/icon.png",
+  "publisher": "crperlin",
+  "repository": {
+    "type": "git",
+    "url":"https://github.com/crper/vscode-vs-ts-snippets.git"
+  },
+  "galleryBanner": {
+    "color": "#0273D4",
+    "theme": "dark"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["vue","typescript-vue","typescript","vue-snippets","vue-ts-snippets","vue-typescript-snippets","vue2+"],
+  "engines": {
+    "vscode": "^1.18.0"
+  },
+  "author":{
+    "name": "crper(QunHe Lin)",
+    "email": "crper@outlook.com",
+    "url": "https://github.com/crper"
+  },
+  "categories": [
+    "Snippets",
+    "Other"
+  ],
+  "contributes":{
+    "snippets": [
+      {
+        "language": "vue",
+        "path":"./snippets/vue.json"
+      },
+      {
+        "language": "typescript",
+        "path":"./snippets/vue-typescript.json"
+      },
+      {
+        "language": "javascript",
+        "path":"./snippets/vue-typescript.json"
+      }
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/crper/vscode-vs-ts-snippets/issues"
+  },
+  "homepage": "https://github.com/crper/vscode-vs-ts-snippets/readme",
+  "license": "SEE LICENSE IN LICENSE"
+}
