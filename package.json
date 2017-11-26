@@ -1,6 +1,6 @@
 {
   "name": "vscode-vue-ts-snippet",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vue with Typescript snippets",
   "main": "index.js",
   "icon": "icon/icon.png",
